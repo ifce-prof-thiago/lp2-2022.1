@@ -1,12 +1,12 @@
-package polimorfismo;
+package polimorfismo.users;
 
-public class Usuario {
+public class User {
 
     private String nome;
     private String email;
     private String telefone;
 
-    private Usuario(String nome, String email, String telefone) {
+    private User(String nome, String email, String telefone) {
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
@@ -14,8 +14,8 @@ public class Usuario {
         validate();
     }
 
-    public static Usuario of(String nome, String email, String telefone) {
-        return new Usuario(nome, email, telefone);
+    public static User of(String nome, String email, String telefone) {
+        return new User(nome, email, telefone);
     }
 
     public void update(String nome, String email, String telefone) {

@@ -1,9 +1,9 @@
-package polimorfismo;
+package polimorfismo.users;
 
 public class CadastrarUsuario {
 
 
-    public void execute(Usuario user, Enviar enviar) {
+    public void execute(User user, Enviar enviar) {
 
         System.out.println("Usuário salvo com sucesso");
         enviar.execute(user);

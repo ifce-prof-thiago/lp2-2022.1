@@ -1,10 +1,10 @@
-package polimorfismo;
+package polimorfismo.users;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Usuario user = Usuario.of(
+        User user = User.of(
                 "João",
                 "j.email.com",
                 "11 99999-9999"
