@@ -4,20 +4,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var computer = new Subject();
+        var lp2 = new Subject("Lp2");
+        var programing = new Subject("Programing");
 
-        var chat = new Chat();
-        var newspaper = new Newspaper();
+        var melissa = new Chat("Melissa");
+        var lara = new Chat("Lara");
 
-        computer.register(chat, newspaper);
+        lp2.register(melissa, lara);
 
-        computer.publish();
+        lp2.publish("Oi");
 
-        System.out.println("---------------");
+        programing.register(lara);
 
-        computer.unregister(chat);
+        programing.publish("blzaaaaa!");
 
-        computer.publish();
 
     }
 }
