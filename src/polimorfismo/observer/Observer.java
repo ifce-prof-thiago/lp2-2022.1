@@ -1,7 +1,7 @@
-package polimorfismo.observer;
-
-public interface Observer {
-
-    void publish(String msg);
-
-}
+//package polimorfismo.observer;
+//
+//public interface Observer {
+//
+//    void publish(String msg);
+//
+//}
